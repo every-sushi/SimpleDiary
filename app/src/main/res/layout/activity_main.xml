@@ -8,15 +8,18 @@
     tools:context="rlaskfud0515.kr.hs.emirim.simplediary.MainActivity">
 
     <DatePicker
+        android:id="@+id/date_pick"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:calendarViewShown="false"
         android:datePickerMode="spinner"/>
     <EditText
+        android:id="@+id/edit1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:lines="10"/>
     <Button
+        android:id="@+id/but1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="right"
